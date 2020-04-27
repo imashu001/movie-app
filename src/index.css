@@ -122,14 +122,19 @@ body {
   border: 1px solid #e1e1e1;
 }
 .tab {
-  margin: 10px;
   background: #fff;
   padding: 10px;
-  margin-bottom: 15px;
+  margin-right: 13px;
   border-radius: 3px;
   border: 1px solid #e1e1e1;
-  display:  inline-block;
 }
+.tabs{
+  display:  flex;
+}
+.tab:hover{
+  cursor: pointer;
+}
+
 .active-tabs {
   background: #2185d0 !important;
   color: white;
